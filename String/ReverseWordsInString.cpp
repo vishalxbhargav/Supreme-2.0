@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 void reverseStr(string& s,int i,int j){
-    while(i<j) swap(s[i],s[j]);
+    while(i<j) swap(s[i++],s[j--]);
 }
 string reverseWordsInString(string& s){
     int i=0,j=0;

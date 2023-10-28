@@ -17,12 +17,10 @@ int solve(vector<int>& coins, int amount) {
 }
 int coinChange(vector<int>& coins, int amount) {
     int ans = solve(coins, amount);
-
     if(ans == INT_MAX)
     return -1;
     else
-    return ans;
-    
+    return ans;  
 }
 int main(){
     vector<int>coin={1,2,5};

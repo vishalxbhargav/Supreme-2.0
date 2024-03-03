@@ -1,0 +1,37 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "DSA",
+      "request": "launch",
+      "mainClass": "DSA"
+    },
+    {
+      "type": "java",
+      "name": "DSA",
+      "request": "launch",
+      "mainClass": "com.mycompany.dsa.DSA",
+      "projectName": ""
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/home/luffy/Downloads/Supreme-2.0/Recursion",
+      "program": "/home/luffy/Downloads/Supreme-2.0/Recursion/build/Debug/outDebug",
+      "MIMode": "lldb",
+      "miDebuggerPath": "/usr/bin/lldb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+RichAGivenScore.cpp

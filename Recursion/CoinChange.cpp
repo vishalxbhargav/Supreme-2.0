@@ -8,8 +8,7 @@ int solve(vector<int>& coins, int amount) {
         if(coins[i] <= amount) {
             int recAns = solve(coins, amount - coins[i]);
             if(recAns != INT_MAX){
-                int ans = 1 + recAns;
-                mini = min(mini, ans);
+                mini = min(mini, recAns+1);
             }    
         }
     }
